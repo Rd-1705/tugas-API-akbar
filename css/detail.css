@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    color: white;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 140vh;
+}
+
+.header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    gap: 140vh;
+    padding: 0 10px;
+}
+
+main{
+    width: 100%;
+}
+.products{
+    width: 100%;
+}
+figure{
+     /* width: 30vw; */
+    text-align: center;
+    >figcaption{
+        text-align: left;
+    }
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.689);
+}
